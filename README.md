@@ -4,6 +4,17 @@
 I have tried to build the API for Hotel-Lister application.
 
 ---
+## Live link
+```bash
+http://ec2-34-234-82-187.compute-1.amazonaws.com:8001/
+
+```
+##API
+
+```bash
+http://ec2-34-234-82-187.compute-1.amazonaws.com:8001/swagger/
+
+```
 
 ## 🐳 Docker Image
 
