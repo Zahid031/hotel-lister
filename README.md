@@ -30,13 +30,13 @@ Now you can access from  [http://localhost:8001](http://localhost:8001)
 
 Hotel Lister is a Python application that helps users find, compare, and manage hotel listings from various sources. It provides a streamlined interface for searching hotels based on location, price, amenities, and ratings, making it easier for travelers to find the perfect accommodation for their needs.
 
+```bash
 Key Features:
 1.User authentication and authorization.
 2.Search and Filtering
 3.API documentation with swagger.
+```
 
-
-Live demo 👉 [https://zahid03.pythonanywhere.com/](https://zahid03.pythonanywhere.com/)
 
 ---
 
@@ -78,7 +78,6 @@ Visit: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) to access th
 Here is the live website running on pythonanywhere
 
 ```bash
-    https://zahid03.pythonanywhere.com/
 ```
 
 
