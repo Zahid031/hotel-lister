@@ -7,10 +7,9 @@ I have tried to build the API for Hotel-Lister application.
 ## Live link
 ```bash
 http://ec2-34-234-82-187.compute-1.amazonaws.com:8001/
-
 ```
-##API
 
+## Swagger
 ```bash
 http://ec2-34-234-82-187.compute-1.amazonaws.com:8001/swagger/
 
