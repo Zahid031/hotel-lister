@@ -19,7 +19,7 @@ docker pull zahid03/hotel-lister:latest
 ### ▶️ Run container
 
 ```bash
-docker run -d -p 8001:8001 zahid03/blog_app:v1
+docker run -d -p 8001:8001 zahid03/hotel-lister:latest
 ```
 
 Now you can access from  [http://localhost:8001](http://localhost:8001)
