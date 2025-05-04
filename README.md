@@ -1,5 +1,5 @@
 
-#  Hotel-Lister – Dockerized Django App
+#  Hotel-Lister – Dockerized DRF API hosted on AWS.
 
 I have tried to build the API for Hotel-Lister application.
 
