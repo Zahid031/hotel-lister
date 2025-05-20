@@ -1,0 +1,19 @@
+kind: Service
+apiVersion: v1
+metadata:
+  # Unique key of the Service instance
+  name: service-hotel-lister
+spec:
+  ports:
+    # Accept traffic sent to port 80
+    - name: http
+      port: 8001
+      targetPort: 8001
+  selector:
+    # Loadbalance traffic across Pods matching
+    # this label selector
+    app: hotel-lister
+  # Create an HA proxy in the cloud provider
+  # with an External IP address - *Only supported
+  # by some cloud providers*
+  type: LoadBalancer

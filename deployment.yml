@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  # Unique key of the Deployment instance
+  name: hotel-lister
+spec:
+  # 3 Pods should exist at all times.
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hotel-lister
+  template:
+    metadata:
+      labels:
+        # Apply this label to pods and default
+        # the Deployment label selector to this value
+        app: hotel-lister
+    spec:
+      containers:
+      - name: hotel-lister
+        # Run this image
+        image: zahid03/hotel-lister:latest
